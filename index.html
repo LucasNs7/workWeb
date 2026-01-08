@@ -32,6 +32,7 @@
                         <option value="p1">P1</option>
                         <option value="p2">P2</option>
                     </select>
+
                     <br>
                     <button data-comando="GIRAR_DIREITA">Girar_Direita</button>
                     <button data-comando="GIRAR_ESQUERDA">Girar_Esquerda</button>
@@ -41,6 +42,28 @@
                     <button data-comando="CHAMAR_P1">Chamar P1</button>
                     <button data-comando="CHAMAR_P2">Chamar P2</button>
                     <button id="botao-limpar-programas">Limpar Programas</button>
+
+                    <div id="caixa-programas" class="box-section">
+                        <h2>Programas</h2>
+                        <div class="blocos-programas">
+                            <div>
+                                <div class="titulo-programa">Principal</div>
+                                <div id="programa-principal" class="programa"></div>
+                            </div>
+
+                            <div>
+                                <div class="titulo-programa">P1</div>
+                                <div id="programa-p1" class="programa"></div>
+                            </div>
+
+                            <div>
+                                <div class="titulo-programa">P2</div>
+                                <div id="programa-p2" class="programa"></div>
+                            </div>
+                        </div>
+                        <small>Clique em um comando para removê-lo</small>
+                    </div>
+                    
                 </div>
             </div>
         </div>
