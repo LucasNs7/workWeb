@@ -13,7 +13,36 @@
         </div>
 
         <div id="painel-lateral">
-           
+            <div id="box-level" class="box-section">
+                <h2>Fase</h2>
+                <div id="info-fase">
+
+                </div>
+                <button id="botao-fase-anterior">Fase Anterior</button>
+                <button id="botao-proxima-fase">Próxima Fase</button>
+                
+            </div>
+
+            <div id="caixa-de-comandos" class="box-section">
+                <h2>Comandos</h2>
+                <div id="botoes-comandos">
+                    Destino:
+                    <select id="seletor-programa">
+                        <option value="principal">Principal</option>
+                        <option value="p1">P1</option>
+                        <option value="p2">P2</option>
+                    </select>
+                    <br>
+                    <button data-comando="GIRAR_DIREITA">Girar_Direita</button>
+                    <button data-comando="GIRAR_ESQUERDA">Girar_Esquerda</button>
+                    <button data-comando="AVANÇAR">Avançar</button>
+                    <button data-comando="PULAR">Pular</button>
+                    <button data-comando="ACENDER">Acender</button>
+                    <button data-comando="CHAMAR_P1">Chamar P1</button>
+                    <button data-comando="CHAMAR_P2">Chamar P2</button>
+                    <button id="botao-limpar-programas">Limpar Programas</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>
